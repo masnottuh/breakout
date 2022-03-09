@@ -92,13 +92,13 @@ function moveUser(e) {
 }
 document.addEventListener('keydown', moveUser)
 
-//draw User
+//draw user
 function drawUser() {
   user.style.left = currentPosition[0] + 'px'
   user.style.bottom = currentPosition[1] + 'px'
 }
 
-//draw Ball
+//draw ball
 function drawBall() {
   ball.style.left = ballCurrentPosition[0] + 'px'
   ball.style.bottom = ballCurrentPosition[1] + 'px'
